@@ -72,6 +72,10 @@ const App = () => {
               This is an implementation of Graham scan convex hull finding
               algorithm with Rust and WebAssembly.
             </p>
+            <p>
+              Source code is available{" "}
+              <a href="https://github.com/likr-sandbox/convex-hull">here</a>.
+            </p>
           </div>
         </div>
       </section>
