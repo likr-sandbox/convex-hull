@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import * as d3 from "d3";
-import { convexHull } from "./convex-hull";
+import worker from "./convex-hull.worker";
+
+const { convexHull } = worker();
 
 const Chart = ({ width, height, data }) => {
   const [ch, setCh] = useState([]);
