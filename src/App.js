@@ -58,8 +58,8 @@ const App = () => {
       const r = 180 * Math.random();
       const t = Math.PI * 2 * Math.random();
       return {
-        x: r * Math.cos(t) + width / 2,
-        y: r * Math.sin(t) + height / 2,
+        x: Math.floor(r * Math.cos(t) + width / 2),
+        y: Math.floor(r * Math.sin(t) + height / 2),
       };
     });
     setData(data);
